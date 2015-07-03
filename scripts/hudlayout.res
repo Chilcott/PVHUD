@@ -17,6 +17,44 @@
 		"labelText"		"+"
 		"textAlignment"	"center"
 	}
+//######################################################
+//#FOG CROSSHAIRS##(CREDITS TO CHIPPY FROM KNHUD/BXHUD)#
+//######################################################
+//
+    fogCrosshair
+    {
+        "controlname"   "CExLabel"
+        "fieldname" "fogCrosshair"
+        
+        "visible"   "0"
+        "enabled"   "1"
+
+        "xpos"      "c-15"
+        "ypos"      "c-17"
+        "zpos"      "2"
+        
+        "wide"      "30"
+        "tall"      "30"
+
+        "font"      "fogCrosshairSmooth"
+        //
+        // Choose what kind
+        //
+        // "fogCrosshair"         - Pixelated and outlined
+        // "fogCrosshairPlain"    - Pixelated and not outlined
+        // "fogCrosshairSmooth"   - Antialiased, not outlined
+        
+
+        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+        //
+        // Choose your crosshair
+        // 
+        // Change the "1" to represent the crosshair you want
+
+        "textAlignment" "center"
+        
+        "fgcolor"   "244 244 244 255"
+    }
 	xHairCircle
 	{
 		"controlName"	"CExLabel"

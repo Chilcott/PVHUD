@@ -2401,6 +2401,43 @@ Scheme
 		// START pvhud custom fonts
 		////////////////////////////
 
+		fogCrosshair
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"0"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+		fogCrosshairPlain
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"0"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+		fogCrosshairSmooth
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+		
 		"xHair"
 		{
 			"1"
@@ -4970,6 +5007,11 @@ Scheme
 		{
 			"font" "resource/taller_evolution.ttf"
 			"name" "taller evolution"
+		}
+		"8" 
+		{
+			"font" "resource/font/crosshairs.ttf"
+			"name" "Crosshairs"
 		}		
 	}
 }
