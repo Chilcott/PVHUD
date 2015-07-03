@@ -1,0 +1,131 @@
+"GameMenu" [$WIN32]
+{
+	"PVHUDButton"
+	{
+		"label" "#PVHUD"
+		"command" "engine play vo/taunts/spy_taunts05"
+		"OnlyAtMenu" "1"
+	}
+	"DisconnectButton"
+	{
+		"label" "Disconnect"
+		"command" "engine disconnect"
+		"OnlyInGame" "1"
+	}
+	"NothingSpacerLoL"
+	{
+		"label" " "
+	}
+	"pvhud_CreateServerButton"
+	{
+		"label" "Create Server"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" "1"
+	}
+	"StartPlayingButton"
+	{
+		"label" "Server Browser"
+		"command" "OpenServerBrowser"
+	}
+	"PlayPVEButton"
+	{
+		"label" "#MMenu_PlayCoop"
+		"command" "playpve"
+		"subimage" "glyph_coop"
+		"OnlyAtMenu" "1"
+	}
+	"CallVote"
+	{
+		"label"			"Call Vote"
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+	}
+	"MuteIdiots"
+	{
+		"label" "Mute Players"
+		"command" "OpenPlayerListDialog"
+		"OnlyInGame" "1"
+	}
+	"OptionsButton"
+	{
+		"label" "Options"
+		"command" "OpenOptionsDialog"
+	}
+	"pvhud_CharacterSetupButton"
+	{
+		"label" "Loadout / Stats"
+		"command" "engine open_charinfo"
+	}
+    "BrowseReplays"
+    {
+        "label" "Replays"
+        "command" "engine replay_reloadbrowser"
+        "OnlyAtMenu" "1"
+    }
+	"StoreButton"
+	{
+		"label" "Store"
+		"command" "engine open_store"
+		"OnlyAtMenu" "1"
+	}
+	"OfflinePracticeButton"
+	{
+		"label" "Offline Practice"
+		"command" "offlinepractice"
+		"OnlyAtMenu" "1"
+	}
+	"TutorialButtonzzz"
+	{
+		"label" "Tutorial"
+		"command" "tutorial"
+		"OnlyAtMenu" "1"
+	}
+	"OMG_MY_CHIEVEZZZ"
+	{
+		"label" "Achievements"
+		"command" "OpenAchievementsDialog"
+	}
+	"NothingSpacerLoL2"
+	{
+		"label" " "
+	}
+	"RequestCoach"
+	{
+		"label"			"Request Coach"
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+	}
+    "CoachFailures"
+    {
+        "label"         "Coach Players"
+		"Command"		"engine cl_coach_toggle"
+		"OnlyInGame"	"1"
+    }
+	"NothingSpacerLoL3"
+	{
+		"label" " "
+		"OnlyInGame" "1"
+	}
+	"32manScoreboard"
+	{
+		"label" "32 Player Scoreboard"
+		"command" "engine cl_hud_minmode 0"
+		"OnlyInGame" "1"
+	}
+	"12manScoreboard"
+	{
+		"label" "6v6 Scoreboard"
+		"command" "engine cl_hud_minmode 1"
+		"OnlyInGame" "1"
+	}
+	"NothingSpacerLoL4"
+	{
+		"label" " "
+		"OnlyInGame" "1"
+	}
+	"Quit"
+	{
+		"label" "Quit"
+		"command" "quit"
+	}
+}
