@@ -397,7 +397,16 @@
 
 		"PaintBackgroundType"	"2"
 	}
-
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
@@ -606,7 +615,7 @@
 	HudSpellMenu
 	{
 		"fieldName" "HudSpellMenu"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
