@@ -900,24 +900,6 @@
 			"zpos"			"3"
 			"wide"			"65"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"320"
-		}
-		"Kills2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Kills2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%kills%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"400"
-			"zpos"			"3"
-			"wide"			"65"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -928,24 +910,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%deaths%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"410"
-			"zpos"			"3"
-			"wide"			"65"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"330"
-		}
-		"Deaths2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
@@ -973,24 +937,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"340"
-		}
-		"Assists2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Assists2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%assists%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"420"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1001,24 +947,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%destruction%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"420"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"350"
-		}
-		"Destruction2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
@@ -1117,24 +1045,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"360"
-		}
-		"Captures2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Captures2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%captures%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"430"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1145,24 +1055,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%defenses%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"440"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"370"
-		}
-		"Defenses2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%defenses%"
 			"textAlignment"	"west"
@@ -1189,24 +1081,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"380"
-		}
-		"Domination2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Domination2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%dominations%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"450"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1217,24 +1091,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%Revenge%"
-			"textAlignment"	"west"
-			"xpos"			"54"
-			"ypos"			"460"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"390"
-		}
-		"Revenge2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
@@ -1333,24 +1189,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"400"
-		}
-		"Healing2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Healing2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%healing%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"410"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1361,24 +1199,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%invulns%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"400"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"410"
-		}
-		"Invuln2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
@@ -1405,24 +1225,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"420"
-		}
-		"Teleports2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Teleports2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%teleports%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"450"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1433,24 +1235,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%headshots%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"430"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"430"
-		}
-		"Headshots2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%headshots%"
 			"textAlignment"	"west"
@@ -1495,24 +1279,6 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"440"
-		}
-		"Backstabs2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%backstabs%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"440"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1542,24 +1308,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%bonus%"
-			"textAlignment"	"west"
-			"xpos"			"124"
-			"ypos"			"460"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"450"
-		}
-		"Bonus2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
 			"textAlignment"	"west"
@@ -1608,26 +1356,6 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"460"
-		}
-		"Support2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Support2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%support%"
-			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"194"	[$WIN32]
-			"ypos"			"400"	[$WIN32]
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -1658,26 +1386,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%damage%"
-			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"194"	[$WIN32]
-			"ypos"			"410"	[$WIN32]
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			
-			"xpos_minmode"	"125" //55 might work for 1920x1080
-			"ypos_minmode"	"320" // 480 might work for 1920x1080
-		}
-		"Damage2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Damage2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
