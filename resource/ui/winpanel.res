@@ -12,48 +12,22 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BlueScoreBG"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
 		}
-		"BlueScoreBG2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"	"BlueScoreBG2"
-			"xpos"		"94"
-			"ypos"		"24"
-			"zpos"		"0"
-			"wide"		"100"
-			"tall"		"16"
-			"visible"	"1"
-			"enabled"	"1"
-			"fillcolor"	"127 152 166 128" //"77 116 139 255"
-		}
-
+		
 		"RedScoreBG"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"RedScoreBG"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"RedScoreBG2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"	"RedScoreBG2"
-			"xpos"		"194"
-			"ypos"		"24"
-			"zpos"		"0"
-			"wide"		"100"
-			"tall"		"16"
-			"visible"	"1"
-			"enabled"	"1"
-			"fillcolor"	"206 115 113 128"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
 		}
 
 		"BlueTeamLabel"
@@ -114,6 +88,25 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"BlueLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -172,20 +165,34 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-
+		"RedLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"RedLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-102"
-		"ypos"			"48"
-		"zpos"			"0"
-		"wide"			"0" //"496"
-		"tall"			"0" //"174"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"WinPanelBGBorder"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	"WinPanelBG2"
 	{
@@ -334,6 +341,33 @@
 		"fillcolor"		"0 0 0 64"
 		"fillcolor_lodef"		"0 0 0 64"
 		"PaintBackgroundType"	"0"
+	}
+	"BackgroundBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"BackgroundBlue"
+		"xpos"		"50"
+		"ypos"		"47"
+		"zpos"		"-1"
+		"wide"		"100"
+		"tall"		"16"
+		"visible"	"1"
+		"enabled"	"1"
+		"fillcolor"	"127 152 166 128" //"77 116 139 255"
+	}
+
+	"BackgroundRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"BackgroundRed"
+		"xpos"		"150"
+		"ypos"		"47"
+		"zpos"		"-1"
+		"wide"		"100"
+		"tall"		"16"
+		"visible"	"1"
+		"enabled"	"1"
+		"fillcolor"	"206 115 113 128"
 	}
 	"TopPlayersLabel"
 	{

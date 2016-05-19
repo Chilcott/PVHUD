@@ -1,5 +1,21 @@
 "Resource/HudLayout.res"
 {
+	SeekerXHairNormal
+	{
+    "controlName"  "CExLabel"
+    "fieldName"     "SeekerXHairNormal"
+    "visible"    "0" //Seeker's Crosshair with outline
+    "enabled"    "1"
+    "zpos"      "1"
+    "xpos"      "c-14"
+    "ypos"      "c-12"
+    "wide"      "25"
+    "tall"      "25"
+    "font"      "SeekerXHairNormal"
+    "labelText"    "x"
+    "fgcolor"    "235 226 202 255"
+    "textAlignment"  "center"
+	}
 	xHair
 	{
 		"controlName"	"CExLabel"
@@ -10,7 +26,7 @@
 
 		"xpos"			"c-12"
 		"ypos"			"c-12"
-		"wide"			"23"
+		"wide"			"24"
 		"tall"			"24"
 
 		"font"			"xHair"
@@ -30,7 +46,7 @@
         "enabled"   "1"
 
         "xpos"      "c-15"
-        "ypos"      "c-17"
+        "ypos"      "c-12"
         "zpos"      "2"
         
         "wide"      "30"
@@ -45,7 +61,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+        "labeltext" "g" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
         //
         // Choose your crosshair
         // 
@@ -1419,4 +1435,83 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}	
 }
